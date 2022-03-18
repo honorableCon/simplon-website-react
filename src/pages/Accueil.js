@@ -1,8 +1,11 @@
 import React from 'react'
+import ArticleList from '../components/Article/ArticleList'
 
 const Accueil = () => {
   return (
-    <div>Accueil</div>
+    <div>
+        <ArticleList/>
+    </div>
   )
 }
 
